@@ -8,4 +8,4 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
     service-url:
-     defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/0.
+     defaultZone: http://localhost:8090/eureka
