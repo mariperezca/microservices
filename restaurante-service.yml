@@ -10,12 +10,6 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-  
-  security:
-    user:
-      name: root
-      password: s3cr3t
-    
 
 eureka:
   client:
