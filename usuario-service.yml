@@ -3,9 +3,9 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/plazoleta
-    username: root
-    password: 1234
+    url: jdbc:mysql://plazoleta.c7dvd1iqtniq.us-east-1.rds.amazonaws.com:3306/usuarios
+    username: admin
+    password: hola123456
 
   jpa:
     hibernate:
